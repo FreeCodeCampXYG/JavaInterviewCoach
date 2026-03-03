@@ -41,6 +41,28 @@
         </dependency>
     </dependencies>
 
+
+    <repositories>
+        <repository>
+            <id>aliyun-public</id>
+            <name>Aliyun Maven</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </repository>
+        <repository>
+            <id>aliyun-central</id>
+            <name>Aliyun Central</name>
+            <url>https://maven.aliyun.com/repository/central</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>aliyun-public-plugins</id>
+            <name>Aliyun Maven Plugins</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </pluginRepository>
+    </pluginRepositories>
+
     <build>
         <plugins>
             <plugin>
